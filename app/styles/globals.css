@@ -2,7 +2,7 @@
 
 :root {
   --background: #ffffff;
-  --foreground: #171717;
+  --foreground: #222222;
 }
 
 @theme inline {
@@ -19,4 +19,20 @@ body {
 
 body {
   @apply font-sans;
+}
+
+.title {
+  @apply font-bold text-[20px];
+}
+
+.title-description {
+  @apply font-normal font-sans text-zinc-600 text-[12px];
+}
+
+.small-description {
+  @apply font-normal font-sans text-zinc-600 text-[12px];
+}
+
+.link {
+  @apply font-semibold text-[16px] text-blue-800 cursor-pointer underline;
 }
