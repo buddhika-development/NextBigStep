@@ -36,3 +36,7 @@ body {
 .link {
   @apply font-semibold text-[16px] text-blue-800 cursor-pointer underline;
 }
+
+.link-text {
+  @apply font-semibold text-[16px] text-blue-800 cursor-pointer underline;
+}
